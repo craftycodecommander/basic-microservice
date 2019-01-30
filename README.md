@@ -23,4 +23,30 @@ mvn clean install
 ```
 
 ### Usage ###
+
+#### Pull the code ####
+```bash
+git clone https://github.com/craftycodecommander/basic-microservice.git
+```
+
+#### Running in an IDE ####
+You can import the checked out project into an IDE of your choice. Once imported run the main class (com.companyname.microservice.ServiceApplication)
+
+#### Running via the Maven plugin ####
+```bash
+mvn spring-boot:run
+```
+
+#### Running the packaged JAR ####
+```bash
+java -jar target/microservice-0.0.1.jar
+```
+
+
 Once running, the Swagger description of the microservice can be accessed on [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+
+The end points are as follows:
+
+[http://localhost:8080/application](http://localhost:8080/application)
+
+[http://localhost:8080/my-object](http://localhost:8080/my-object)
